@@ -1,0 +1,11 @@
+{
+    "name": "default",
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "amigo_secreto",
+    "useUnifiedTopology": true,
+    "entities": [
+      "./src/app/models/*.ts"
+    ]
+}
