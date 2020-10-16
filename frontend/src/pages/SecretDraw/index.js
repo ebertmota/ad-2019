@@ -1,6 +1,4 @@
-import React, {
- useCallback, useEffect, useState, useRef
-} from 'react';
+import React, { useCallback, useEffect, useState, useRef } from 'react';
 import { MdClear, MdDone, MdCreate } from 'react-icons/md';
 import { useHistory } from 'react-router-dom';
 import { toast } from 'react-toastify';
@@ -116,7 +114,7 @@ const Home = () => {
                   type="text"
                   value={name}
                   ref={inputEl}
-                  onChange={(e) => setName(e.target.value)}
+                  onChange={e => setName(e.target.value)}
                 />
               </div>
 
@@ -126,7 +124,7 @@ const Home = () => {
                   id="email"
                   value={email}
                   type="email"
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={e => setEmail(e.target.value)}
                 />
               </div>
               <IconWrap success>

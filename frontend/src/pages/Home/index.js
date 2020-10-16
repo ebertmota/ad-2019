@@ -1,8 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header';
 
-import {
- Container, Content, Main, ButtonLink, } from './styles';
+import { Container, Content, Main, ButtonLink } from './styles';
 
 const Home = () => (
   <Container>

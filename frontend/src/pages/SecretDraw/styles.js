@@ -162,5 +162,6 @@ export const IconWrap = styled.div`
   }
 
   &:hover {
-    border-color: ${(props) => props.success ? 'green' : props.error && '#f4536a'}
+    border-color: ${props =>
+      props.success ? 'green' : props.error && '#f4536a'};
 `;
