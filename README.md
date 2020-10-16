@@ -1,8 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/48302018/96207902-b8f11e80-0f42-11eb-8617-e243708332ae.png" width="200px"/>
+  <img src="https://user-images.githubusercontent.com/48302018/96207902-b8f11e80-0f42-11eb-8617-e243708332ae.png" width="150px"/>
 </h1>
 <h3 align="center">Amigo Secreto</h3>
 
+<br>
+<br>
 
 ## Sobre o projeto
 A partir do frontend construído em React podemos adicionar os participantes do nosso amigo secreto, e sortear-los. Assim cada integrante recebrá um email informando qual é o seu amigo.
@@ -16,6 +18,9 @@ A partir do frontend construído em React podemos adicionar os participantes do 
 - [Express](https://expressjs.com/pt-br/)
 - [TypeORM](https://typeorm.io/#/)
 - [MongoDB](https://www.mongodb.com/)
+- [React](https://pt-br.reactjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Yup](https://github.com/jquense/yup#install)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
@@ -89,7 +94,8 @@ ou
 ```sh
   npm run start
 ```
-
+<br>
+<br>
 
 
 ---
