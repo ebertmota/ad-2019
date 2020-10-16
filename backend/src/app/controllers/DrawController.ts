@@ -11,17 +11,15 @@ class DrawController {
     const personRepository = getMongoRepository(Person);
     const { people } = req.body;
 
-    // Parsing people sended by frontend to object
     const parsedPeople = JSON.parse(people);
 
-    // getting only names for sort
     const names: string[] = [];
 
     parsedPeople.map((item: any) => {
       names.push(item.name);
     });
 
-    // START SORTING
+    // Starting Draw
     const arr1 = names.slice();
     const arr2 = names.slice();
 
@@ -43,7 +41,7 @@ class DrawController {
       });
     }
 
-    // Update Friend information in Database and sending emails
+    // Update Friend information in Database and sending emails for every person
     parsedPeople.map(async (person: any) => {
       await personRepository.update(person.id, {
         friend: person.friend,

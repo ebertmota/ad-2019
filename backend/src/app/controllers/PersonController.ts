@@ -6,9 +6,27 @@ import Person from '../models/Person';
 class PersonController {
   public async index(req: Request, res: Response): Promise<Response> {
     const personRepository = getMongoRepository(Person);
-    const people = await personRepository.find();
+    const people = await personRepository.find({
+      order: {
+        created_at: 'DESC',
+      },
+    });
 
     return res.json(people);
+  }
+
+  public async show(req: Request, res: Response): Promise<Response> {
+    const personRepository = getMongoRepository(Person);
+
+    const { id } = req.params;
+
+    const person = await personRepository.findOne(id);
+
+    if (!person) {
+      return res.status(404).json({ error: 'Person not found' });
+    }
+
+    return res.json(person);
   }
 
   public async create(req: Request, res: Response): Promise<Response> {
