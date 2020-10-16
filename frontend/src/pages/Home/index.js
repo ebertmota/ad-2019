@@ -2,8 +2,7 @@ import React from 'react';
 import Header from '../../components/Header';
 
 import {
- Container, Content, Main, ButtonLink
-} from './styles';
+ Container, Content, Main, ButtonLink, } from './styles';
 
 const Home = () => (
   <Container>
@@ -16,9 +15,7 @@ const Home = () => (
           Organize seu amigo secreto usando E-mail com o mais simples e gratuito
           gerador.
         </p>
-        <ButtonLink to="/secret-friend-generator">
-          Comecar adicionando um amigo
-        </ButtonLink>
+        <ButtonLink to="/secret-friend-generator">Comecar</ButtonLink>
       </Main>
     </Content>
   </Container>

@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const App = () => (
   <>
     <GlobalStyles />
-    <ToastContainer />
+    <ToastContainer autoClose={6000} />
     <Routes />
   </>
 );

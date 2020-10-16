@@ -9,7 +9,7 @@ const Header = () => (
     <Link to="/">
       <img src={logoImg} alt="Eu" />
 
-      <h1>Secreto Amigo</h1>
+      <h1>Amigo Secreto</h1>
     </Link>
   </Container>
 );

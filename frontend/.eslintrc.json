@@ -27,6 +27,7 @@
     "rules": {
       "prettier/prettier": "error",
       "jsx-a11y/label-has-associated-control": "off",
+      "react/prop-types": "off",
       "react/jsx-filename-extension": [
         "warn",
         { "extensions": [".jsx", ".js"] }

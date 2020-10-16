@@ -10,6 +10,8 @@ export const Container = styled.div`
   width: 100%;
   height: 100%;
   padding: 50px;
+
+  background: url(${backgroundImg}) no-repeat 70% bottom;
 `;
 
 export const Content = styled.div`
@@ -18,8 +20,6 @@ export const Content = styled.div`
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 30px;
-
-  background: url(${backgroundImg}) no-repeat 70% bottom;
 `;
 
 export const Main = styled.main`
