@@ -18,6 +18,7 @@ A partir do frontend construído em React podemos adicionar os participantes do 
 - [Express](https://expressjs.com/pt-br/)
 - [TypeORM](https://typeorm.io/#/)
 - [MongoDB](https://www.mongodb.com/)
+- [Ethereal fake SMTP](https://ethereal.email/)
 - [React](https://pt-br.reactjs.org/)
 - [Styled Components](https://styled-components.com/)
 - [Yup](https://github.com/jquense/yup#install)
@@ -94,9 +95,21 @@ ou
 ```sh
   npm run start
 ```
-<br>
+
 <br>
 
+
+## Como testar o envio de emails?
+
+Assim que você realizar o sorteio, os e-mails serão enviados automaticamente para cada integrante dele. Mas para visualizar isso em ambiente de desenvolvimento usamos o Ethereal que é um serviço de fake SMTP.
+Então quando o sorteio for realizado, um log com a URL de visualização dos e-mails vai aparecer no terminal que seu backend está rodando, como na imagem abaixo:
+
+<img src="https://user-images.githubusercontent.com/48302018/96209576-526dff80-0f46-11eb-8ede-eb2c98604609.png" />
+
+basta clicar na "Preview URL:" e visualizar o email.
+
+<br>
+<br>
 
 ---
 Made with :blue_heart: by Ebert Mota
