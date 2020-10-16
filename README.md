@@ -1,11 +1,11 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/48302018/96207902-b8f11e80-0f42-11eb-8617-e243708332ae.png" width="200px"/>
 </h1>
-<h2 align="center">Amigo Secreto</h2>
+<h3 align="center">Amigo Secreto</h3>
 
 
 ## Sobre o projeto
-A partir do frontend construído em React podemos adicionar os participantes do nosso amigo secreto, e sortear-los. Assim cada integrante recebrá um email informando qual é o seu amigo secreto.
+A partir do frontend construído em React podemos adicionar os participantes do nosso amigo secreto, e sortear-los. Assim cada integrante recebrá um email informando qual é o seu amigo.
 
 
 
