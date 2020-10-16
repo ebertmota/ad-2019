@@ -7,7 +7,7 @@
 <br>
 
 ## Sobre o projeto
-A partir do frontend construído em React podemos adicionar os participantes do nosso amigo secreto, e sortear-los. Assim cada integrante recebrá um email informando qual é o seu amigo.
+A partir do frontend construído em React podemos adicionar os participantes do nosso amigo secreto, e sortear-los. Assim cada integrante receberá um email informando qual é o seu amigo.
 
 
 
